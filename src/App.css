@@ -1,0 +1,17 @@
+#root {
+  width: 100%;
+  min-width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.Container{
+  width: 100%;
+  min-height: 100vh;
+}
