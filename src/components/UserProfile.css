@@ -1,0 +1,125 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.profile-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 35px 40px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s;
+  position: relative;
+}
+
+.profile-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+}
+
+.back-button{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #f0ebeb;
+  position: absolute;
+}
+
+.profile-avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.profile-avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  text-align: left;
+}
+
+.profile-info h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2b2f38;
+}
+
+.profile-info p {
+  font-size: 15px;
+  color: #5a5e67;
+  margin: 10px 0;
+}
+
+.profile-info strong {
+  color: #2b2f38;
+}
+
+.profile-info input {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  transition: border 0.3s;
+}
+
+.profile-info input:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+}
+
+.profile-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-actions button {
+  padding: 10px 22px;
+  margin: 0 6px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+
+.profile-loading {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  padding: 50px;
+}
