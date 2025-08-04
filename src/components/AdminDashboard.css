@@ -1,0 +1,23 @@
+.admin-dashboard {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.admin-nav {
+  margin-bottom: 20px;
+}
+
+.admin-nav button {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.admin-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-content th, .admin-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
