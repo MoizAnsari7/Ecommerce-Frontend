@@ -1,0 +1,89 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f3f4f6, #ffffff);
+  }
+  
+  .signup-card {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    gap: 5px;
+  }
+  
+  .signup-card h2 {
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+    color: #222;
+  }
+  
+  .signup-card label {
+    text-align: left;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #444;
+  }
+  
+  .signup-card input,
+  .signup-card select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 0px;
+    font-size: 0.95rem;
+  }
+  
+  .signup-card button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007185;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+  }
+  
+  .signup-card button[type="submit"]:hover {
+    background-color: #005f6a;
+  }
+  
+  .readme-btn {
+    margin-top: 15px;
+    background: none;
+    border: 1px solid #aaa;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .readme-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .login-link {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .login-link span {
+    color: #007185;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
